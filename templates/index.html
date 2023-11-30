@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="{{ url_for('static', filename='css/rviain.css') }}" rel="stylesheet" type="text/css">
+  <title>Three Cups Game</title>
+</head>
+<body>
+  <div id="cup1" class="cup"></div>
+  <div id="cup2" class="cup"></div>
+  <div id="cup3" class="cup"></div>
+  <div id="ball"></div>
+  <button id="play">Play</button>
+  <div id="message"></div>
+
+  <script src="{{ url_for('static', filename='js/script.js')}}"></script>
+</body>
+</html>
